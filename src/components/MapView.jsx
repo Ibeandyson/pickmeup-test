@@ -26,7 +26,7 @@ const MapView = () => {
 
   const renderMarkers = (map, maps) => {
     let marker = new maps.Marker({
-      position: { lat: locationData.latitude, lng: locationData.longitude },
+      position: { lat: locationData?.latitude, lng: locationData?.longitude },
       map,
       title: "location details is to be shown here, but the given API key is invalid, which made me used mine that isn't paid yet so the sevice for goecoding is paid",
     });
